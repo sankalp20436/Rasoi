@@ -1,0 +1,36 @@
+.Placeorder{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 100px;
+}
+.Placeorder-Left{
+  width: 100%;
+  max-width: max(30%,500px);
+}
+.Placeorder-Left .Title{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.Placeorder-Left input{
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+  outline-color: red;
+}
+.Placeorder-Left .Multi-fields{
+  display: flex;
+  gap: 10px;
+}
+.Placeorder-Right{
+  width: 100%;
+  max-width: max(40%,500px);
+
+}
+.Placeorder .Cart-Total button{
+  margin-top: 30px;
+}
