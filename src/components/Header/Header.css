@@ -2,8 +2,7 @@
 .header{
   height:34vw;     
   margin :px auto;
-  /* background-color: aqua; */
-  background-image: url('header_img.png')  ;
+  background-image: url('../../assets/header_img.png')  ;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
