@@ -3,7 +3,7 @@ import './Mobile.css'
 import { assets } from '../../assets/assets'
 const Mobile = () => {
   return (
-    <div class="AppDownload" id ="AppDownload">
+    <div className="AppDownload" id ="AppDownload">
     <p>For Better Experience Download <br /> Rasoi App</p> 
       <div className="AppDownloadPlatform">
         <img src={assets.play_store} alt="" />
